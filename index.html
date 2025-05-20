@@ -1,20 +1,28 @@
 
     <html>
-      <head>
+    <head>
         <title>Daily Inbound Dashboard</title>
-      </head>
-      <body>
+        <style>
+            body { font-family: Arial, sans-serif; padding: 20px; }
+            h1 { color: #2c3e50; }
+            h2 { color: #34495e; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+        </style>
+    </head>
+    <body>
         <h1>Daily Inbound Dashboard</h1>
         <h2>Summary for 2025-05-20</h2>
         <ul>
-          <li><strong>Inbound Lines:</strong> 47</li>
-          <li><strong>Total Value:</strong> $136,045.67</li>
-          <li><strong>Unique Suppliers:</strong> 27</li>
-          <li><strong>Unique Customers:</strong> 9</li>
-          <li><strong>High Volume Orders:</strong> 12</li>
+            <li><strong>Inbound Lines:</strong> 47</li>
+            <li><strong>Total Value:</strong> $136,045.67</li>
+            <li><strong>Unique Suppliers:</strong> 27</li>
+            <li><strong>Unique Customers:</strong> 9</li>
+            <li><strong>High Volume Orders:</strong> 12</li>
         </ul>
         <hr>
-        <h2>Line Details</h2>
+        <h2>Line Item Detail (Today)</h2>
         <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2325,6 +2333,7 @@
     </tr>
   </tbody>
 </table>
-      </body>
+        <p><em>Updated automatically each day based on current inbound purchase orders.</em></p>
+    </body>
     </html>
     
